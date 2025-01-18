@@ -18,7 +18,7 @@ app = FastAPI(
     Supported LLMs (Language Models):
     - Gemini: Gemini 2.0 Flash
     - OpenAI: GPT-4o model
-    Default: Gemini
+    Default: Gemini 
     
     Examples:
     - Single stock: "Analyze Apple stock"
