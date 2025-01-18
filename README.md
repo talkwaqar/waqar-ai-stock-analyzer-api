@@ -1,29 +1,36 @@
 # Stock Earnings Analyzer API
 
-A FastAPI-based service that provides AI-powered analysis of stock financial data using either Google's Gemini or OpenAI's GPT-4.
+An intelligent FastAPI service that leverages AI (Gemini and OpenAI) to analyze stock financial data. The API processes natural language queries about stocks and provides detailed financial analysis using real-time data from Finnhub.
 
-## Features
+## 🚀 Features
 
-- Natural language processing to extract stock symbols from user queries
-- Real-time financial data fetching from Finnhub
-- AI-powered analysis of financial statements using multiple LLM options
-- Detailed analysis of:
-  - Revenue and Profitability metrics
-  - Debt and Financial Health indicators
-  - Cash Flow Position
-  - Growth Metrics
-- Support for multiple stock comparison
-- Configurable LLM choice (Gemini or OpenAI)
+- **Natural Language Processing**: Convert queries like "Compare Apple and Microsoft" into stock analysis
+- **Multi-Stock Analysis**: Analyze multiple stocks simultaneously
+- **Dual AI Support**: 
+  - Google Gemini 2.0 Flash
+  - OpenAI GPT-4o
+- **Comprehensive Financial Analysis**:
+  - Revenue & Profitability Metrics
+  - Debt & Financial Health Indicators
+  - Cash Flow Analysis
+  - Growth & Performance Metrics
+- **Real-time Data**: Live financial data from Finnhub API
+- **Detailed Documentation**: Interactive API docs with examples
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Framework**: FastAPI
-- **AI/ML**: 
-  - Google Gemini Pro
-  - OpenAI GPT-4
-- **Financial Data**: Finnhub API
+- **Backend**: FastAPI
+- **AI Models**: 
+  - Google Gemini 2.0 Flash (Default)
+  - OpenAI GPT-4o
+- **Data Provider**: Finnhub API
 - **Python**: 3.11+
-
+- **Dependencies**: 
+  - langchain
+  - pydantic
+  - google-generativeai
+  - openai
+  - finnhub-python
 
 ## How to run the project
 
