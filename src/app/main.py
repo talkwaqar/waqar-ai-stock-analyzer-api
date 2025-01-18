@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
-from app.dependencies import get_stock_analyzer
-from app.schemas.stock import StockRequest, StockResponse
-from app.services.langchain_service import StockAnalyzer
+from src.app.dependencies import get_stock_analyzer
+from src.app.schemas.stock import StockRequest, StockResponse
+from src.app.services.langchain_service import StockAnalyzer
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 from langchain.globals import set_debug

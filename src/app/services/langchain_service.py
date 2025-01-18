@@ -8,7 +8,7 @@ import typing_extensions as typing
 import logging
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.globals import set_debug
-from app.prompts.stock_prompts import SYMBOL_EXTRACTION_PROMPT, FINANCIAL_ANALYSIS_PROMPT
+from src.app.prompts.stock_prompts import SYMBOL_EXTRACTION_PROMPT, FINANCIAL_ANALYSIS_PROMPT
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

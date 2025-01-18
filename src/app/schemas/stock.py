@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import Dict, Optional, List
-from app.core.config import get_settings
+from src.app.core.config import get_settings
 from typing_extensions import Annotated
 
 settings = get_settings()
